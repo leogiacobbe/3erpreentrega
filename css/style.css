@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.bg-black{
+background-color: black;
+}
+nav div a img{
+    size: 80px;
+
+}
+
+#botones ul li a{
+    color: rgb(254, 59, 64);
+    font-family: 'Bebas Neue';
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 50 px;
+}
+.navbar-toggler {
+    color: rgb(254, 59, 64);
+}
+
+.navbar-toggler-icon{
+size: 50px;
+}
+body{
+    background-color: black;
+}
+.book {
+    margin-left: 30px;
+}
+
+h1{
+    color:rgb(254, 59, 64);
+    font-family: 'Bebas Neue';
+}
+h5{
+    margin-left: 30px;
+    color:rgb(254, 59, 64);
+    font-family: 'Bebas Neue';
+}
+.py-3 div p{
+    color: white;
+    font-family: 'Bebas Neue';
+}
+.article{
+    width: 90%;
+}
+.formulario {
+    color:rgb(254, 59, 64);
+    font-family: 'Bebas Neue';
+ }
+.cye{
+    color:white;
+    font-family: 'Bebas Neue';
+    background-color:rgb(254, 59, 64);
+} 
+main img{
+    height: 100%;
+    width: 100%;
+    border: 4px black;
+    object-fit: cover;
+}
+footer a img{
+    width: 50px;
+    margin-left: 30px
+}
+.sopa{
+    grid-area: sopa;
+}
+.muela{
+    grid-area: muela;
+
+}
+.liebre{
+    grid-area: liebre;
+}
+.monalisa{
+    grid-area: monalisa;
+}
+.sixtina{
+    grid-area: sixtina;
+}
+.cabra{
+    grid-area: cabra;
+}
+#porfolio{
+    
+    display: grid;
+    margin: 30px;
+    grid-template-columns: 1;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    "sopa" "muela" "liebre" "monalisa" "sixtina" "cabra";
+}
+
+.cye{
+    display: flex;
+    padding-left: center;
+    width: 70px;
+    height: 30px; 
+         
+}  
+
+@media (min-width:280px) {
+    #carouselExampleIndicators{
+        width: 90%;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    p{
+        width: 80%;
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
+    #porfolio{
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-areas: 
+        "sopa" "muela" "liebre" "monalisa" "sixtina" "cabra";
+    }
+    #index {
+        
+        background-color: none;
+        width: 90%;
+        height: auto; 
+    }
+    .contacto{
+        display:block;
+        flex-direction: row;
+    }    
+    #datos{
+        width: 90%;
+        margin-left: 55px;
+        margin-top: 3.5%;
+    }
+    #form {
+        width: 80%;
+        margin-left: 55px;
+        margin-top: 3.5%;
+    }
+    
+    .formulario label{
+        align-items: flex-start;
+    }
+    .formulario{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        margin-left: 50px;
+            
+    }
+    input{
+        
+        width: 5%;
+        height: 30px;    
+    }
+    
+    .map{
+        align-items: center; 
+        margin-left: 20px;   
+        width: 80%;
+        height: 80%;
+        }
+    #datos {
+            display: block;
+            font-family: 'Bebas Neue';
+            color:white;
+        }
+       
+}
+
+@media (min-width:1024px) {
+    p{
+        width: 100%;
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    #porfolio{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(4,30vh);
+        grid-template-areas: 
+        "muela muela sopa cabra"
+        "muela muela sopa cabra"
+        "monalisa liebre sixtina sixtina"
+        "monalisa liebre sixtina sixtina";
+    }
+    #carouselExampleIndicators{
+        width: 75%;
+        opacity: 30%;
+    }
+    #index {
+        position: absolute;
+        top: 37%;
+        width: 50%;
+        margin-left: 500px;
+        height: auto;
+        display: block;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+
+        }
+        .contacto{
+            display: flex;
+            flex-direction: row;
+        }    
+        #datos{
+            width: 30%;
+            margin-top: 3.5%;
+        }
+        #form {
+            width: 90%;
+            margin-top: 3.5%;
+        }
+        }
+.formulario{
+ width: 50%;
+display: flex;
+flex-direction: column;
+margin-left: 50px;        
+}
+input{
+    width: 5%;
+    height: 30px;   
+    }
+ .map{
+   display: flex;
+margin: 1.5em;
+width: 70%;
+height: 50%;
+}
+#datos p{
+display: block;
+font-family: 'Bebas Neue';
+color:white;
+}
+
+
+
+
+    
+
+
+
