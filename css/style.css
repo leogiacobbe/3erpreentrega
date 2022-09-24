@@ -2,10 +2,6 @@
 .bg-black{
 background-color: black;
 }
-nav div a img{
-    size: 80px;
-
-}
 
 #botones ul li a{
     color: rgb(254, 59, 64);
@@ -134,9 +130,8 @@ footer a img{
         margin-top: 3.5%;
     }
     #form {
-        width: 80%;
-        margin-left: 55px;
-        margin-top: 3.5%;
+        width: 100%;
+        margin-left: 40px;
     }
     
     .formulario label{
