@@ -11,7 +11,7 @@ background-color: black;
     margin-right: 50px;
 }
 #botones ul li a:hover{
-        color: rgba(254, 59, 64, .2);
+        color: rgba(254, 59, 64, .7);
         transition: 1s;
 
 }
@@ -36,7 +36,7 @@ h1{
 }
 h2{
     margin-left: 30px;
-    color:rgb(254, 59, 64);
+    color:rgba(254, 59, 64, .7);
     font-family: 'Bebas Neue';
 }
 .py-3 div p{
