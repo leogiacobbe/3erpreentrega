@@ -1,0 +1,50 @@
+.pide{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.formulario {
+    color: $mainColor;
+    font-family:'Bebas Neue';
+    font-size: $textMoP;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+   ;
+}
+.btn-form{
+    display:flex;
+    justify-content:end;
+    margin-top: center;
+    
+}
+.cye{
+    display: flex;
+    padding-left: center;
+    width: 70px;
+    height: 30px;
+    color:$secondaryColor;
+    font-family: 'Bebas Neue';
+    background-color:$mainColor;
+    input{
+        width: 5%;
+        height: 30px;   
+        }
+  
+}
+.map{
+    width: 90%;
+    padding: 15px;
+    height: 80%;
+}
+.datos{
+    div{
+        display: block;
+    }
+}
+   
+.p-1{
+    width: 35px;
+}
+.contacto{
+    flex-direction: row-reverse;
+}

@@ -6,7 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Kiricocho Tattoo</title>
     <link rel="shortcut icon" href="multimedios/img/logo/mesa-de-trabajo.png" type="logo kiricocho tattoo">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/main.css">
   </head>
   <body>
         
@@ -14,11 +14,11 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-black" id="botones">
             <div class="container-fluid">
                 <a class="navbar-brand nav-link active" href="../index.html">
-                    <img src="../multimedios/img/logo/fondotrans.png" aria-current="page" alt="logo de kiricocho">
+                    <img src="../multimedios/img/logo/fondotrasnparente.png" aria-current="page" alt="logo de kiricocho">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
-                        <img src="../multimedios/img/iconos rojos/botonhamburguesa.svg" alt="boton hamburguesa">
+                        <img src="../multimedios/img/iconos-rojos/botonhamburguesa.svg" alt="boton hamburguesa">
                     </span>
                 </button>
             </div>
@@ -44,9 +44,13 @@
         
         </nav>
         <!--termina nav-->   
+       <header>
+        <h1 class="pide">Pide tu cita</h1>
+       </header>
         <main class="contacto">
+            
             <section id="form">
-                <form action="contacto">
+                <form>
                     <div>
                         <label class="formulario" for="name">Nombre</label>
                         <input class="formulario"  type="nombre" id="name" placeholder="Diego Armando">
@@ -60,23 +64,28 @@
                         <label class="formulario" for="mensaje">Consulta</label>
                         <textarea class="formulario"  name="" id="mensaje" cols="30" rows="10" placeholder="tu mensaje"></textarea>
                     </div>
-                    <div class="d-flex justify-content-center mt-1">    
+                    <div class="btn-form">    
                         <input class="cye" type="reset" value="Cancelar">
                         <input class="cye" type="submit" value="Enviar">
                     </div>
                 </form>     
                 
             </section>
-            <section id="datos">
-                 
-                <p>+5491133703959</p>
+          
+            <section class="datos">
+                
+                <div class="d-flex p-2">
+                    <img src="../multimedios/img/iconos-rojos/whatsapp.svg" class="p-1" alt="logo whatsapp">
+                    <h3 class="whatsapp">+5491133703959</h3>
+                </div>
+                <div class="d-flex p-2">    
+                    <img src="../multimedios/img/iconos-rojos/map.svg" class="p-1" alt="logo map">
+                    <h3 class="direccion">Cerrito 33,1º, CABA</h3>
+                </div>
                       
-                <p>Cerrito 33,1º, CABA</p>
+                
                 <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26271.39849048967!2d-58.4215261809732!3d-34.60606274935392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac15d22e603%3A0xbf60ff9a1e27b711!2sMcDonald&#39;s!5e0!3m2!1ses!2ses!4v1661271663481!5m2!1ses!2ses" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </section>
-                   
-             
-            
+            </section>    
         </main> 
         </body> 
         <footer>

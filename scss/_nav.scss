@@ -1,0 +1,29 @@
+.bg-black{
+    background-color: $bgColor;
+}
+#botones{
+    ul{
+        li{
+            a{
+                color: $mainColor;
+                font-family: 'Bebas Neue';
+                text-decoration: none;
+                font-size: $textOrP;
+                margin-right: 50px;
+                &:hover{
+                    color:$mainColorT;
+                    transition: 1s;
+
+                }
+            }
+        }
+    }
+}
+.navbar-toggler {
+    color: $mainColor;
+}
+    
+.navbar-toggler-icon{
+    size: 50px;
+    
+    }

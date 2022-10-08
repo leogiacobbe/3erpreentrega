@@ -1,0 +1,28 @@
+.sopa{
+    grid-area: sopa;
+}
+.muela{
+    grid-area: muela;
+
+}
+.liebre{
+    grid-area: liebre;
+}
+.monalisa{
+    grid-area: monalisa;
+}
+.sixtina{
+    grid-area: sixtina;
+}
+.cabra{
+    grid-area: cabra;
+}
+#porfolio{
+    
+    display: grid;
+    margin: 30px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    "sopa" "muela" "liebre" "monalisa" "sixtina" "cabra";
+}

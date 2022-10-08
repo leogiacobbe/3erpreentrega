@@ -1,0 +1,48 @@
+body{
+    background-color: $bgColor;
+}
+.book {
+    margin-left: 30px;
+}
+h1{
+    color:$mainColor;
+    font-family: 'Bebas Neue';
+}
+h2{
+    margin-left: 30px;
+    color:$mainColorT;
+    font-family: 'Bebas Neue';
+}
+h3{
+    margin-left: 30px;
+    display: block;
+    font-family: 'Bebas Neue';
+    color:$secondaryColor;
+}
+.py-3{
+    div {
+        p{
+            color: $secondaryColor;
+            font-family: 'Bebas Neue';
+        } 
+    } 
+}
+.article{
+    width: 90%;
+}
+main {
+    img{
+        height: 100%;
+        width: 100%;
+        border: 4px $bgColor;
+        object-fit: cover;
+    }
+}
+footer{
+    a {
+        img{
+            width: 50px;
+            margin-left: 30px
+        }
+    }
+}
