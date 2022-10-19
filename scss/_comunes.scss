@@ -1,3 +1,7 @@
+@mixin size ($h, $w) {
+    height: $h;
+    width: $w;
+}
 body{
     background-color: $bgColor;
 }
@@ -22,12 +26,11 @@ h2{
     } 
 }
 .article{
-    width: 90%;
+    @include size(auto, 90%);
 }
 main {
     img{
-        height: 100%;
-        width: 100%;
+        @include size(100%, 100%);
         border: 4px $bgColor;
         object-fit: cover;
     }
@@ -35,7 +38,7 @@ main {
 footer{
     a {
         img{
-            width: 50px;
+            @include size(auto, 50px);
             margin-left: 30px
         }
     }
