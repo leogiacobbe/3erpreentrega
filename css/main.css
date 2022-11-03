@@ -106,6 +106,9 @@ footer a img {
     font-size: 1.5em;
     line-height: 1.5em;
   }
+  #botones {
+    margin-left: 50px;
+  }
   #index {
     background-color: none;
     height: auto;
