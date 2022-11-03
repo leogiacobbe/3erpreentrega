@@ -1,7 +1,4 @@
 @media (min-width:280px) {
-    #carouselExampleIndicators{
-        width: 90%;
-    }
     h1{
         font-size: $textMoH;
     }
@@ -13,7 +10,6 @@
     #index {
         
         background-color: none;
-        width: 90%;
         height: auto; 
     }
     .contacto{
@@ -49,6 +45,8 @@
 }
 
 @media (min-width:1024px) {
+    
+    
     p{
         width: 100%;
         font-size: $textOrP;
@@ -63,19 +61,9 @@
     }
     #carouselExampleIndicators{
         width: 75%;
-        opacity: 30%;
     }
     #index {
-        position: absolute;
-        top: 37%;
-        width: 50%;
-        margin-left: 500px;
-        height: auto;
-        display: block;
-        height: auto;
         text-align: center;
-        justify-content: center;
-
         }
         .contacto{
             display: flex;

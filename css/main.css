@@ -98,9 +98,6 @@ footer a img {
 }
 
 @media (min-width: 280px) {
-  #carouselExampleIndicators {
-    width: 90%;
-  }
   h1 {
     font-size: 3rem;
   }
@@ -111,7 +108,6 @@ footer a img {
   }
   #index {
     background-color: none;
-    width: 90%;
     height: auto;
   }
   .contacto {
@@ -157,18 +153,9 @@ footer a img {
   }
   #carouselExampleIndicators {
     width: 75%;
-    opacity: 30%;
   }
   #index {
-    position: absolute;
-    top: 37%;
-    width: 50%;
-    margin-left: 500px;
-    height: auto;
-    display: block;
-    height: auto;
     text-align: center;
-    justify-content: center;
   }
   .contacto {
     display: flex;
